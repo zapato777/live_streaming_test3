@@ -1,0 +1,32 @@
+@use 'variables' as v;
+
+%hover-black {
+    &:hover {
+        cursor: pointer;
+        color: v.$color_black;
+    }
+}
+
+%hover-light {
+    &:hover {
+        cursor: pointer;
+        color: v.$color_white;
+    }
+}
+
+%hover-black-globe {
+    &:hover {
+        cursor: pointer;
+        border-radius: 50%;
+        height: 28px;
+        padding: 0 1px 1px 1px;
+        background-color: v.$color_black;
+    }
+}
+
+%hover-black-icon {
+    &:hover {
+        cursor: pointer;
+        stroke: v.$color_black;
+    }    
+}
