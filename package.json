@@ -1,0 +1,22 @@
+{
+  "name": "live_streaming_test3",
+  "version": "1.0.0",
+  "description": "landing page",
+  "source": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=compressed --watch styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zapato777/live_streaming_test3.git"
+  },
+  "author": "Timoshenko Edvard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zapato777/live_streaming_test3/issues"
+  },
+  "homepage": "https://github.com/zapato777/live_streaming_test3#readme",
+  "devDependencies": {
+    "sass": "^1.85.0"
+  }
+}
