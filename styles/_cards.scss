@@ -137,6 +137,7 @@
         width: 330px;
         row-gap: 15px;
         background: url('../assets/wave_card_bg.svg') 50% 0/contain no-repeat;
+        box-shadow: none;
 
         &__quote {
             @include m.font(13px, 400, v.$color_white);
